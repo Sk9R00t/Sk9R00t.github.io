@@ -1,0 +1,126 @@
+body {
+    font-family: 'Tiro Bangla', sans-serif;
+    background: linear-gradient(135deg, #fce4ec, #e1bee7);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.header, .content, .footer {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+h1 {
+    color: #e91e63;
+    font-size: 3em;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.subtitle {
+    color: #880e4f;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+nav {
+    margin: 20px 0;
+}
+nav a {
+    color: #6a1b9a;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #e91e63;
+}
+
+.intro-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.gallery-section img {
+    width: 45%;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-section img:hover {
+    transform: scale(1.05);
+}
+
+.long-letter-section p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #4a148c;
+}
+
+.letter-heading {
+    color: #880e4f;
+    font-size: 2em;
+}
+
+.signature {
+    text-align: right;
+    font-style: italic;
+    font-size: 1.1em;
+    margin-top: 30px;
+}
+
+.text-pink {
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.text-purple {
+    color: #6a1b9a;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.text-blue {
+    color: #1a237e;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #e91e63;
+    font-size: 1.15em;
+    text-shadow: 1px 1px 8px #fff, 0 2px 8px #f8bbd0;
+    letter-spacing: 1px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    padding: 8px 16px;
+    display: inline-block;
+    animation: fadeInCaption 1.2s ease;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s, color 0.3s;
+    box-shadow: 0 2px 12px rgba(233,30,99,0.08);
+}
+
+.img-caption:hover {
+    transform: scale(1.05) rotate(-2deg);
+    box-shadow: 0 4px 24px rgba(233,30,99,0.18);
+    background: #fce4ec;
+    color: #6a1b9a;
+    cursor: pointer;
+}
+
+@keyframes fadeInCaption {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
